@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_ID"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:src="@drawable/note">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/title_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/image_ID"
+        android:text="Title"
+        android:textAlignment="viewStart"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/date_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_ID"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/image_ID"
+        android:text="2022/04/05"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1:20"
+        android:textSize="15sp"
+        android:layout_toRightOf="@+id/date_ID"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/title_ID"
+        android:id="@+id/time_ID">
+
+    </TextView>
+
+
+
+</RelativeLayout>
